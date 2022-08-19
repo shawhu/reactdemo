@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+#visual studio code debugging
+.vscode
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
