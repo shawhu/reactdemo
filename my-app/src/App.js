@@ -5,7 +5,20 @@ import React, { Component } from "react";
 
 class App extends Component {
   state = {
-    characters: [],
+    characters: [
+      {
+        name: "Harry Xiao",
+        job: "PM",
+      },
+      {
+        name: "John Doe",
+        job: "Dev",
+      },
+      {
+        name: "王大狗",
+        job: "Art",
+      },
+    ],
   };
   removeCharacter = (index) => {
     const { characters } = this.state;
